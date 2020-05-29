@@ -34,7 +34,7 @@ class String
 
   def count_sentences
     
-    self.scan(/[^\.!?]+[\.!?]/).count
+    self.split(/[^\.!?]+[\.!?]/).count
 
   end
 end
