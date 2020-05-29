@@ -36,7 +36,5 @@ class String
     
     self.split(/[?!.]\s+[a-zA-Z]/).count
     
-    
-
   end
 end
